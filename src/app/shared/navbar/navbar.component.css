@@ -1,0 +1,174 @@
+.header {
+  max-width: 100%;
+  height: 117px;
+  background: #FFFFFF;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  padding: 2.5em 1em;
+  justify-content: space-between;
+}
+
+
+.header-menu-items {
+  display: none;
+}
+
+.show {
+  display: block;
+  background-color: #1B3761;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.header-button-mobile--mobile{
+  z-index: 2;
+  position: relative;
+  color: black;
+}
+
+.header-menu-items2{
+  display: none;
+}
+
+.header-logo{
+  width: 180px;
+  height: 40px;
+}
+
+.example-container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.header-sidenav {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #17223A;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 1em;
+}
+
+.header-sidenav-link{
+  font-family: var(--tipografiaAlegreya);
+  font-size:22px;
+line-height: 26.4px;
+font-style: normal;
+}
+
+.example-icon{
+  display: block;
+}
+
+.header-button-icon{
+  font-size: 25px;
+  font-weight: 900;
+}
+
+@media (max-width: 319px) {
+  .menu-button {
+    display: block;
+  }
+
+  .header-menu-items {
+    display: block;
+  }
+}
+
+
+
+
+@media (min-width: 375px) {
+  .header-sidenav{
+    gap: 1em;
+  }
+
+  .header-sidenav-link{
+    font-size:24px;
+  }
+
+  .header-button-icon{
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 425px) {
+  .header-sidenav{
+    gap: 1.3em;
+  }
+
+  .header-sidenav-link{
+    font-size:26px;
+  }
+
+  .header-button-icon{
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-logo{
+    width: 230px;
+    height: 50px;
+  }
+  
+  .header-sidenav{
+    gap: 1.5em;
+  }
+
+  .header-sidenav-link{
+    font-size:28px;
+  }
+
+  .header-button-icon{
+    font-size: 27px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .example-icon{
+    display: none;
+  }
+
+  .header-menu-items2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .header-sidenav{
+    display: none;
+  }
+
+  .header-container{
+    padding: 2.5em 2em;
+  }
+
+  .header-logo{
+    width: 230px;
+    height: 50px;
+    margin-right: 1.5em;
+  }
+}
