@@ -5,11 +5,11 @@
     </div>
     <div>
       <ul class="header-menu-items2 flex space-x-4">
-        <li><a class='header-sidenav-link' href="#">Sobre Nosotros</a></li>
-        <li><a class='header-sidenav-link' href="#">Servicios</a></li>
-        <li><a class='header-sidenav-link' href="#">Portafolios</a></li>
-        <li><a class='header-sidenav-link' href="#">Comunidad</a></li>
-        <li><a class='header-sidenav-link' href="#">Contacto</a></li>
+        <li><a class='header-sidenav-link ' href="#">Sobre Nosotros</a></li>
+        <li><a class='header-sidenav-link ' href="#">Servicios</a></li>
+        <li><a class='header-sidenav-link ' href="#">Portafolios</a></li>
+        <li><a class='header-sidenav-link ' href="#">Comunidad</a></li>
+        <li><a class='header-sidenav-link ' href="#">Contacto</a></li>
       </ul>
     </div>
     <div class='header-button-mobile'>
@@ -17,7 +17,7 @@
       (click)="toggleContent()">
       <mat-icon class='header-button-icon' [ngStyle]="{ color: isWhite ? 'white' : 'black' }">{{ showContent ? 'close' : 'menu' }}</mat-icon>
         </button>
-          <section> 
+          <section>
             <ul class="header-sidenav header-menu-items" [ngClass]="{ 'show': isMenuOpen }" *ngIf="showContent">
             <li class="text-center mt-10"><a class='header-sidenav-link' href="#">Sobre Nosotros</a></li>
             <li class="text-center"><a class='header-sidenav-link' href="#">Servicios</a></li>
@@ -25,7 +25,7 @@
             <li class="text-center"><a class='header-sidenav-link' href="#">Comunidad</a></li>
             <li class="text-center"><a class='header-sidenav-link' href="#">Contacto</a></li>
           </ul>
-        </section> 
+        </section>
     </div>
   </mat-toolbar-row>
   </mat-toolbar>

@@ -1,0 +1,72 @@
+
+.home-container-weAre{
+  position: relative;
+}
+
+.home-weAre{
+  position: absolute;
+}
+
+.home-img-svg1{
+  position: absolute;
+  top: 2em;
+  right: 6%;
+}
+.home-img-svg2{
+  position: absolute;
+  top: 31em;
+  right: 12%;
+}
+
+.home-img-svg1 img{
+  height: 18em;
+ }
+
+
+.home-img-svg2 img{
+ height: 12em;
+}
+
+
+@media (min-width: 375px) {
+  .home-img-svg1{
+    top: 2em;
+    right: 7%;
+  }
+  .home-img-svg2{
+    top: 34em;
+    right: 11%;
+  }
+
+  .home-img-svg1 img{
+    height: 19em;
+   }
+
+
+  .home-img-svg2 img{
+   height: 14em;
+  }
+
+}
+
+@media (min-width: 425px) {
+  .home-img-svg1{
+    top: 2em;
+    right: 7%;
+  }
+
+  .home-img-svg2{
+    top: 35em;
+    right: 15%;
+  }
+
+  .home-img-svg1 img{
+    height: 19em;
+   }
+
+
+  .home-img-svg2 img{
+   height: 16em;
+  }
+
+}
