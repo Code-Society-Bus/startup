@@ -195,11 +195,16 @@
 @media (min-width: 1024px) {
   .ourMentors-background-img--img2{
     display: block;
+    width: 57%;
     height: 600px;
   }
 
   .ourMentors-background-img--img{
     display: none;
+  }
+
+  .ourMentors-background-img {
+    width: 100vw;
   }
 
   .ourMentors-subtitulo {
