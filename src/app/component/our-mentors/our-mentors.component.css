@@ -196,15 +196,11 @@
   .ourMentors-background-img--img2{
     display: block;
     width: 57%;
-    height: 600px;
+    height: 670px;
   }
 
   .ourMentors-background-img--img{
     display: none;
-  }
-
-  .ourMentors-background-img {
-    width: 100vw;
   }
 
   .ourMentors-subtitulo {
@@ -213,7 +209,42 @@
 }
 
 .ourMentors-carousel-container-button {
-  left: 479px;
-  top: 349px;
+  left: 456px;
+  top: 353px;
+}
+
+
+.ourMentors-img{
+  width: 412.53px;
+  height: 768.06px;
 }
 }
+
+@media (min-width: 1336px) {
+ .ourMentors-background-img--img2{
+    display: block;
+    width: 57%;
+    height: 670px;
+  }
+
+  .ourMentors-background-img--img{
+    display: none;
+  }
+
+  .ourMentors-subtitulo {
+    top: 18px;
+    left: 32%;
+}
+
+.ourMentors-carousel-container-button {
+  left: 456px;
+  top: 353px;
+}
+
+
+.ourMentors-img{
+  width: 412.53px;
+  height: 768.06px;
+}
+}
+
