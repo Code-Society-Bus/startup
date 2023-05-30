@@ -5,9 +5,10 @@ import { HomeRoutingModule } from "./home-routing.module";
 import { HomeComponent } from "./home.component";
 import { WeAreModule } from "../we-are/we-are.module";
 import { OurMentorsModule } from "../our-mentors/our-mentors.module";
+import { AboutModule } from '../about/about.module';
 
 @NgModule({
 	declarations: [HomeComponent],
-	imports: [CommonModule, HomeRoutingModule, WeAreModule, OurMentorsModule],
+	imports: [CommonModule, HomeRoutingModule, WeAreModule, OurMentorsModule, AboutModule],
 })
 export class HomeModule {}

@@ -31,6 +31,12 @@
   display: none;
 }
 
+.home-container-about{
+  width: 100%;
+  position: absolute;
+  top: 966px;
+}
+
 @media (min-width: 375px) {
   .home-img-svg1{
     top: 2em;
@@ -50,6 +56,9 @@
    height: 14em;
   }
 
+  .home-container-about{
+    top: 1050px;
+  }
 }
 
 @media (min-width: 425px) {
@@ -72,6 +81,16 @@
    height: 16em;
   }
 
+  .home-container-about{
+    top: 1120px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .home-container-about{
+    top: 1110px;
+  }
 }
 
 
@@ -99,5 +118,9 @@
 
 .home-img-svg1{
   display: none;
+}
+
+.home-container-about{
+  top: 940px;
 }
 }

@@ -17,6 +17,10 @@
   transform: translate(-50%, -50%);
 }
 
+.ourMentors-background-img--img {
+  max-height: 700px;
+}
+
 .ourMentors-background-img--img2{
   display: none;
 }
