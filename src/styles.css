@@ -22,6 +22,11 @@ body {
   min-height: 320px;
 }
 
+a{
+  text-decoration: none !important;
+}
+
+
 .splide__pagination {
   display: flex !important;
   gap: 1em !important;
@@ -59,7 +64,16 @@ body {
   z-index: 1;
 }
 
+.splide__list {
+  gap: 5px;
+}
 
 
+.splide__arrow--next {
+  display: none !important;
+}
 
+.splide__arrow--prev {
+  display: none !important;
+}
 

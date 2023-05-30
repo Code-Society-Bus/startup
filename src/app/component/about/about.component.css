@@ -2,19 +2,25 @@
   width: 100%;
 }
 
+.about-container-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-title{
   font-family: var(--tipografiaAlegreya);
 font-style: normal;
 font-weight: 700;
 font-size: 28px;
 line-height: 34px;
-display: flex;
-align-items: center;
 color: #1B3761;
 }
 
 .about-hr{
+  margin-top: -5px;
 border: 1.36842px solid #1B3761;
+width: 198px;
 }
 
 

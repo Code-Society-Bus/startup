@@ -37,6 +37,13 @@
   top: 966px;
 }
 
+.home-container-ourServices{
+  position: absolute;
+width: 100%;
+top: 1790px;
+}
+
+
 @media (min-width: 375px) {
   .home-img-svg1{
     top: 2em;
