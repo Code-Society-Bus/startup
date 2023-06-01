@@ -44,6 +44,13 @@ top: 1790px;
 }
 
 
+.home-container-portafolio{
+  position: absolute;
+width: 100%;
+top: 3500px;
+}
+
+
 @media (min-width: 375px) {
   .home-img-svg1{
     top: 2em;
@@ -98,6 +105,10 @@ top: 1790px;
   .home-container-about{
     top: 1110px;
   }
+
+  .home-container-portafolio{
+    top: 2750px;
+  }
 }
 
 
@@ -130,4 +141,12 @@ top: 1790px;
 .home-container-about{
   top: 940px;
 }
+}
+
+
+@media (min-width: 1200px) {
+
+  .home-container-portafolio{
+    top: 2500px;
+  }
 }

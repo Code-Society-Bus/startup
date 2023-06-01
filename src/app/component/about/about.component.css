@@ -53,13 +53,6 @@ height: 210px;
   transform: translateY(-50%);
 }
 
-.splide__pagination__page {
-  background-color: #FFFFFF !important;
-  border: 1px solid #1B3761 !important;
-  border-radius: 50% !important;
-  width: 10px !important;
-  height: 10px !important;
-}
 
 .about-carousel-button.active {
   background-color: #1B3761;

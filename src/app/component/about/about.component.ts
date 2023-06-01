@@ -11,12 +11,12 @@ import Splide from '@splidejs/splide';
 export class AboutComponent implements OnInit{
 
   ngOnInit() {
-    let splide = new Splide( '.splide', {
+    let splide = new Splide( '#splide1', {
       type   : 'loop',
       padding: '5rem',
     } );
-    
+
     splide.mount();
   }
- 
+
 }

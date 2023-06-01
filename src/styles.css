@@ -6,6 +6,7 @@
 
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
@@ -27,7 +28,7 @@ a{
 }
 
 
-.splide__pagination {
+.container-splide .splide__pagination {
   display: flex !important;
   gap: 1em !important;
   bottom: -2.5em !important;
@@ -38,9 +39,6 @@ a{
   position: absolute;
   right: 0;
   z-index: 1;
-}
-
-.splide__pagination {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +47,8 @@ a{
   pointer-events: none;
 }
 
-.splide__pagination__page {
+
+.container-splide .splide__pagination__page {
   background-color: #FFFFFF !important;
   border: 1px solid #1B3761 !important;
   border-radius: 50% !important;
@@ -58,22 +57,128 @@ a{
 }
 
 
-.splide__pagination__page.is-active {
+
+
+
+.container-splide .splide__pagination__page.is-active {
   background-color: #1B3761 !important;
   transform: scale(1.4);
   z-index: 1;
 }
 
-.splide__list {
+.container-splide .splide__list {
   gap: 5px;
 }
 
 
-.splide__arrow--next {
+.container-splide .splide__arrow--next {
   display: none !important;
 }
 
-.splide__arrow--prev {
+.container-splide .splide__arrow--prev {
   display: none !important;
 }
+
+.portafolio-container-splide .splide__arrow--next{
+  display: none !important;
+  }
+
+  .portafolio-container-splide .splide__arrow--prev{
+    display: none !important;
+    }
+
+
+    .portafolio-container-splide .splide__pagination {
+      display: flex !important;
+      gap: 1em !important;
+      bottom: 1.5em !important;
+      align-items: center !important;
+      justify-content: center !important;
+      left: 0;
+      padding: 0 1em;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0;
+      pointer-events: none;
+    }
+
+
+    .portafolio-container-splide .splide__pagination__page {
+      background-color: #FFFFFF !important;
+      border: 1px solid #1B3761 !important;
+      border-radius: 50% !important;
+      width: 10px !important;
+      height: 10px !important;
+    }
+
+
+
+
+
+    .portafolio-container-splide .splide__pagination__page.is-active {
+      background-color: #1B3761 !important;
+      transform: scale(1.4);
+      z-index: 1;
+    }
+
+
+    @media (min-width: 1024px) {
+      .portafolio-container-splide .splide__pagination {
+        bottom: 14em !important;
+      }
+
+      .portafolio-container-splide .splide__pagination__page {
+        width: 15px !important;
+        height: 15px !important;
+      }
+
+      .portafolio-container-splide .splide__arrow--next{
+        display: flex !important;
+        background-image: url('./assets/portafolio-control-next.png') !important;
+        background-repeat: no-repeat !important;
+    padding: 5px;
+width: 70px;
+height: 70px;
+    position: absolute;
+    top: 9em;
+    right: -2em;
+        }
+
+        .portafolio-container-splide .splide__arrow--prev{
+          display: flex !important;
+          background-image: url('./assets/portafolio-control-prev.png') !important;
+          background-repeat: no-repeat !important;
+    padding: 5px;
+width: 70px;
+height: 70px;
+    position: absolute;
+    top: 9em;
+    left: -2em;
+          }
+
+
+          .portafolio-container-splide .splide__arrow--next svg{
+display: none;
+
+        }
+
+        .portafolio-container-splide .splide__arrow--prev svg{
+display: none;
+        }
+
+        .portafolio-container-splide .splide__arrow{
+background: none;
+    border-radius: 0%;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+     top: 40%;
+        }
+    }
+
 
