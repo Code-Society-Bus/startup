@@ -12,6 +12,9 @@ import { ComunityComponent } from './comunity.component';
   imports: [
     CommonModule,
     ComunityRoutingModule
+  ],
+  exports: [
+    ComunityComponent
   ]
 })
 export class ComunityModule { }
