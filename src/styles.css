@@ -1,32 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-:root{
-  --tipografiaAlegreya: 'Alegreya Sans', sans-serif;
-  --tipografiaRaleway:  'Raleway', sans-serif;
-
+:root {
+  --tipografiaAlegreya: "Alegreya Sans", sans-serif;
+  --tipografiaRaleway: "Raleway", sans-serif;
 }
 
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   min-height: 320px;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
-
 
 .container-splide .splide__pagination {
   display: flex !important;
@@ -47,21 +44,16 @@ a{
   pointer-events: none;
 }
 
-
 .container-splide .splide__pagination__page {
-  background-color: #FFFFFF !important;
-  border: 1px solid #1B3761 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #1b3761 !important;
   border-radius: 50% !important;
   width: 10px !important;
   height: 10px !important;
 }
 
-
-
-
-
 .container-splide .splide__pagination__page.is-active {
-  background-color: #1B3761 !important;
+  background-color: #1b3761 !important;
   transform: scale(1.4);
   z-index: 1;
 }
@@ -69,7 +61,6 @@ a{
 .container-splide .splide__list {
   gap: 5px;
 }
-
 
 .container-splide .splide__arrow--next {
   display: none !important;
@@ -79,106 +70,130 @@ a{
   display: none !important;
 }
 
-.portafolio-container-splide .splide__arrow--next{
+.portafolio-container-splide .splide__arrow--next {
   display: none !important;
+}
+
+.portafolio-container-splide .splide__arrow--prev {
+  display: none !important;
+}
+
+.portafolio-container-splide .splide__pagination {
+  display: flex !important;
+  gap: 1em !important;
+  bottom: 1.5em !important;
+  align-items: center !important;
+  justify-content: center !important;
+  left: 0;
+  padding: 0 1em;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  pointer-events: none;
+}
+
+.portafolio-container-splide .splide__pagination__page {
+  background-color: #ffffff !important;
+  border: 1px solid #1b3761 !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.portafolio-container-splide .splide__pagination__page.is-active {
+  background-color: #1b3761 !important;
+  transform: scale(1.4);
+  z-index: 1;
+}
+
+.opinion-splide .splide__arrow--next {
+  display: none;
+}
+
+.opinion-splide .splide__arrow--prev {
+  display: none;
+}
+
+.opinion-splide .splide__pagination {
+  display: flex !important;
+  gap: 1em !important;
+  bottom: -2.5em !important;
+  align-items: center !important;
+  justify-content: center !important;
+  left: 0;
+  padding: 0 1em;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  pointer-events: none;
+}
+
+.opinion-splide .splide__pagination__page {
+  background-color: #ffffff !important;
+  border: 1px solid #1b3761 !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+@media (min-width: 1024px) {
+  .portafolio-container-splide .splide__pagination {
+    bottom: 14em !important;
   }
 
-  .portafolio-container-splide .splide__arrow--prev{
-    display: none !important;
-    }
+  .portafolio-container-splide .splide__pagination__page {
+    width: 15px !important;
+    height: 15px !important;
+  }
 
-
-    .portafolio-container-splide .splide__pagination {
-      display: flex !important;
-      gap: 1em !important;
-      bottom: 1.5em !important;
-      align-items: center !important;
-      justify-content: center !important;
-      left: 0;
-      padding: 0 1em;
-      position: absolute;
-      right: 0;
-      z-index: 1;
-      align-items: center;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 0;
-      pointer-events: none;
-    }
-
-
-    .portafolio-container-splide .splide__pagination__page {
-      background-color: #FFFFFF !important;
-      border: 1px solid #1B3761 !important;
-      border-radius: 50% !important;
-      width: 10px !important;
-      height: 10px !important;
-    }
-
-
-
-
-
-    .portafolio-container-splide .splide__pagination__page.is-active {
-      background-color: #1B3761 !important;
-      transform: scale(1.4);
-      z-index: 1;
-    }
-
-
-    @media (min-width: 1024px) {
-      .portafolio-container-splide .splide__pagination {
-        bottom: 14em !important;
-      }
-
-      .portafolio-container-splide .splide__pagination__page {
-        width: 15px !important;
-        height: 15px !important;
-      }
-
-      .portafolio-container-splide .splide__arrow--next{
-        display: flex !important;
-        background-image: url('./assets/portafolio-control-next.png') !important;
-        background-repeat: no-repeat !important;
+  .portafolio-container-splide .splide__arrow--next {
+    display: flex !important;
+    background-image: url("./assets/portafolio-control-next.png") !important;
+    background-repeat: no-repeat !important;
     padding: 5px;
-width: 70px;
-height: 70px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     top: 9em;
     right: -2em;
-        }
+  }
 
-        .portafolio-container-splide .splide__arrow--prev{
-          display: flex !important;
-          background-image: url('./assets/portafolio-control-prev.png') !important;
-          background-repeat: no-repeat !important;
+  .portafolio-container-splide .splide__arrow--prev {
+    display: flex !important;
+    background-image: url("./assets/portafolio-control-prev.png") !important;
+    background-repeat: no-repeat !important;
     padding: 5px;
-width: 70px;
-height: 70px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     top: 9em;
     left: -2em;
-          }
+  }
 
+  .portafolio-container-splide .splide__arrow--next svg {
+    display: none;
+  }
 
-          .portafolio-container-splide .splide__arrow--next svg{
-display: none;
+  .portafolio-container-splide .splide__arrow--prev svg {
+    display: none;
+  }
 
-        }
-
-        .portafolio-container-splide .splide__arrow--prev svg{
-display: none;
-        }
-
-        .portafolio-container-splide .splide__arrow{
-background: none;
+  .portafolio-container-splide .splide__arrow {
+    background: none;
     border-radius: 0%;
     cursor: pointer;
     padding: 0;
     position: absolute;
-     top: 40%;
-        }
-    }
-
-
+    top: 40%;
+  }
+}

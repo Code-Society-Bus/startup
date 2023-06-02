@@ -9,6 +9,7 @@ import { AboutModule } from '../about/about.module';
 import { OurServicesModule } from "../our-services/our-services.module";
 import { PortafolioModule } from "../portafolio/portafolio.module";
 import { ComunityModule } from "../comunity/comunity.module";
+import { OpinionModule } from "../opinion/opinion.module";
 
 @NgModule({
 	declarations: [HomeComponent],
@@ -20,7 +21,8 @@ import { ComunityModule } from "../comunity/comunity.module";
     AboutModule,
     OurServicesModule,
     PortafolioModule,
-    ComunityModule
+    ComunityModule,
+    OpinionModule
   ],
 })
 export class HomeModule {}
