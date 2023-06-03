@@ -196,4 +196,55 @@ a {
     position: absolute;
     top: 40%;
   }
+
+
+/*   .opinion-splide .splide__list{
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+     flex-wrap: wrap !important;
+} */
+
+   .opinion-splide .splide__arrow--next {
+    display: flex !important;
+    background-image: url("./assets/portafolio-control-next.png") !important;
+    background-repeat: no-repeat !important;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 9em;
+    right: -2em;
+  }
+
+  .opinion-splide .splide__arrow--prev {
+    display: flex !important;
+    background-image: url("./assets/portafolio-control-prev.png") !important;
+    background-repeat: no-repeat !important;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 9em;
+    left: -2em;
+  }
+
+  .opinion-splide .splide__arrow--next svg {
+    display: none;
+  }
+
+  .opinion-splide .splide__arrow--prev svg {
+    display: none;
+  }
+
+  .opinion-splide .splide__arrow {
+    background: none;
+    border-radius: 0%;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    top:65%;
+  }
 }
