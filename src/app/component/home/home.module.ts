@@ -10,6 +10,7 @@ import { OurServicesModule } from "../our-services/our-services.module";
 import { PortafolioModule } from "../portafolio/portafolio.module";
 import { ComunityModule } from "../comunity/comunity.module";
 import { OpinionModule } from "../opinion/opinion.module";
+import { TecnologyModule } from "../tecnology/tecnology.module";
 
 @NgModule({
 	declarations: [HomeComponent],
@@ -22,7 +23,8 @@ import { OpinionModule } from "../opinion/opinion.module";
     OurServicesModule,
     PortafolioModule,
     ComunityModule,
-    OpinionModule
+    OpinionModule,
+ TecnologyModule
   ],
 })
 export class HomeModule {}
