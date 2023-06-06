@@ -197,8 +197,7 @@ a {
     top: 40%;
   }
 
-
-/*   .opinion-splide .splide__list{
+  /*   .opinion-splide .splide__list{
     width: 100% !important;
     display: flex !important;
     flex-direction: row !important;
@@ -207,7 +206,7 @@ a {
      flex-wrap: wrap !important;
 } */
 
-   .opinion-splide .splide__arrow--next {
+  .opinion-splide .splide__arrow--next {
     display: flex !important;
     background-image: url("./assets/portafolio-control-next.png") !important;
     background-repeat: no-repeat !important;
@@ -245,6 +244,6 @@ a {
     cursor: pointer;
     padding: 0;
     position: absolute;
-    top:65%;
+    top: 65%;
   }
 }

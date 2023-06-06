@@ -1,16 +1,15 @@
 .header {
   max-width: 100%;
   height: 117px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
   padding: 2.5em 1em;
   justify-content: space-between;
 }
-
 
 .header-menu-items {
   display: none;
@@ -18,24 +17,24 @@
 
 .show {
   display: block;
-  background-color: #1B3761;
+  background-color: #1b3761;
   color: #fff;
   position: absolute;
   top: 50px;
   right: 20px;
 }
 
-.header-button-mobile--mobile{
+.header-button-mobile--mobile {
   z-index: 2;
   position: relative;
   color: black;
 }
 
-.header-menu-items2{
+.header-menu-items2 {
   display: none;
 }
 
-.header-logo{
+.header-logo {
   width: 180px;
   height: 40px;
 }
@@ -53,8 +52,6 @@
   justify-content: center;
 }
 
-
-
 .header-sidenav {
   height: 100%;
   width: 50%;
@@ -62,33 +59,32 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #17223A;
+  background-color: #17223a;
   color: #fff;
   display: flex;
   flex-direction: column;
-align-items: center;
-gap: 1em;
+  align-items: center;
+  gap: 1em;
 }
 
-.header-sidenav-link{
+.header-sidenav-link {
   font-family: var(--tipografiaAlegreya);
-  font-size:22px;
-line-height: 26.4px;
-font-style: normal;
+  font-size: 22px;
+  line-height: 26.4px;
+  font-style: normal;
 }
 
-.example-icon{
+.example-icon {
   display: block;
 }
 
-.header-button-icon{
+.header-button-icon {
   font-size: 25px;
   font-weight: 900;
 }
 
-
-.header-menu-items2 .header-sidenav-link{
-  color: #1B3761;
+.header-menu-items2 .header-sidenav-link {
+  color: #1b3761;
 }
 
 @media (max-width: 319px) {
@@ -101,138 +97,129 @@ font-style: normal;
   }
 }
 
-
-
-
 @media (min-width: 375px) {
-  .header-sidenav{
+  .header-sidenav {
     gap: 1em;
   }
 
-  .header-sidenav-link{
-    font-size:24px;
+  .header-sidenav-link {
+    font-size: 24px;
   }
 
-  .header-button-icon{
+  .header-button-icon {
     font-size: 26px;
   }
 }
 
 @media (min-width: 425px) {
-  .header-sidenav{
+  .header-sidenav {
     gap: 1.3em;
   }
 
-  .header-sidenav-link{
-    font-size:26px;
+  .header-sidenav-link {
+    font-size: 26px;
   }
 
-  .header-button-icon{
+  .header-button-icon {
     font-size: 27px;
   }
 }
 
 @media (min-width: 768px) {
-  .header-logo{
+  .header-logo {
     width: 230px;
     height: 50px;
   }
 
-  .header-sidenav{
+  .header-sidenav {
     gap: 1.5em;
   }
 
-  .header-sidenav-link{
-    font-size:28px;
+  .header-sidenav-link {
+    font-size: 28px;
   }
 
-  .header-button-icon{
+  .header-button-icon {
     font-size: 27px;
   }
 }
 
-
 @media (min-width: 1024px) {
-  .example-icon{
+  .example-icon {
     display: none;
   }
 
-  .header-menu-items2{
+  .header-menu-items2 {
     display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 44px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
     height: 14px;
   }
 
-  .header-sidenav{
+  .header-sidenav {
     display: none;
   }
 
-  .header-container{
+  .header-container {
     display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-gap: 5px;
-width: 100%;
-padding: 0px 2em;
-height: 117px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    padding: 0px 2em;
+    height: 117px;
   }
 
-.header-subcontainer{
+  .header-subcontainer {
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: center;
     gap: 10%;
     justify-content: space-around;
-}
+  }
 
-  .header-logo{
+  .header-logo {
     width: 200px;
     height: 40px;
   }
 
-.header-sidenav-link2{
-height: 14px;
-font-family: var(--tipografiaAlegreya);
-font-weight: 500;
-font-size: 22px;
-line-height: 27px;
-display: flex;
-align-items: center;
-color: #1B3761;
-}
+  .header-sidenav-link2 {
+    height: 14px;
+    font-family: var(--tipografiaAlegreya);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #1b3761;
+  }
 
-.header-sidenav-link2:hover{
-  width: auto;
-height: 115px;
-background: #17223A;
-color: #fff;
-padding: 5px;
+  .header-sidenav-link2:hover {
+    width: auto;
+    height: 115px;
+    background: #17223a;
+    color: #fff;
+    padding: 5px;
+  }
 }
-
-}
-
 
 @media (min-width: 1200px) {
-.header-subcontainer{
+  .header-subcontainer {
     gap: 15%;
+  }
 }
-
-}
-
 
 @media (min-width: 1336px) {
-  .example-icon{
+  .example-icon {
     display: none;
   }
 
-  .header-subcontainer{
+  .header-subcontainer {
     gap: 20%;
-}
-
+  }
 }

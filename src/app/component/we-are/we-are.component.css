@@ -50,7 +50,7 @@
 }
 
 @media (min-width: 375px) {
-.weAre-paragraph {
+  .weAre-paragraph {
     font-size: 16px;
     width: 210px;
   }
@@ -86,10 +86,10 @@
   }
 
   .weAre-title {
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
   }
 
   .weAre-container-title {
@@ -99,7 +99,7 @@ line-height: 48px;
 
   .weAre-container-paragraph {
     width: 12em;
-    height: 340px
+    height: 340px;
   }
 
   .weAre-paragraph {
@@ -112,4 +112,3 @@ line-height: 48px;
     text-align: center;
   }
 }
-

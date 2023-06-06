@@ -1,45 +1,44 @@
-.about{
+.about {
   width: 100%;
 }
 
-.about-container-title{
+.about-container-title {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.about-title{
+.about-title {
   font-family: var(--tipografiaAlegreya);
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 34px;
-color: #1B3761;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #1b3761;
 }
 
-.about-hr{
+.about-hr {
   margin-top: -5px;
-border: 1.36842px solid #1B3761;
-width: 198px;
+  border: 1.36842px solid #1b3761;
+  width: 198px;
 }
 
-
- .about-card{
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 41px 18px;
-gap: 30.44px;
-height: 470px;
-border: 1px solid #1B3761;
-border-radius: 25px;
+.about-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 41px 18px;
+  gap: 30.44px;
+  height: 470px;
+  border: 1px solid #1b3761;
+  border-radius: 25px;
 }
 
-.about-img{
-width: 211px;
-height: 210px;
+.about-img {
+  width: 211px;
+  height: 210px;
 }
 
 .about-carousel-button-container {
@@ -53,12 +52,11 @@ height: 210px;
   transform: translateY(-50%);
 }
 
-
 .about-carousel-button.active {
-  background-color: #1B3761;
+  background-color: #1b3761;
 }
 
-.about-card-title{
+.about-card-title {
   font-family: var(--tipografiaAlegreya);
   font-style: normal;
   font-weight: 500;
@@ -67,22 +65,18 @@ height: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1B3761;
+  color: #1b3761;
 }
 
-.about-card-text{
+.about-card-text {
   font-family: var(--tipografiaAlegreya);
   font-style: normal;
   font-weight: 300;
   font-size: 14.1574px;
   line-height: 17px;
   text-align: center;
-  color: #1B3761;
+  color: #1b3761;
 }
 
-
-
-
 @media (min-width: 1024px) {
-
 }

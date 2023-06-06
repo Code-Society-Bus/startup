@@ -231,25 +231,25 @@
 
 @media (min-width: 375px) {
   .portafolio-container-splide-slide {
-     left: 8%;
+    left: 8%;
   }
 }
 
 @media (min-width: 425px) {
   .portafolio-container-splide-slide {
-     left: 12%;
+    left: 12%;
   }
 }
 
 @media (min-width: 768px) {
   .portafolio-container-splide-slide {
-     left: 30%;
+    left: 30%;
   }
 }
 
 @media (min-width: 1024px) {
   .portafolio-container-splide-slide {
-     left: 6%;
+    left: 6%;
   }
 
   .portafolio-title {
@@ -261,7 +261,6 @@
   .portafolio-hr {
     width: 190px;
   }
-
 
   .portafolio-container-card--one {
     position: relative;
@@ -380,53 +379,52 @@
     top: 19em;
   }
 
-  .splide-slide-1{
-position:relative;
-left: 8%;
+  .splide-slide-1 {
+    position: relative;
+    left: 8%;
   }
 
-  .splide-slide-2{
-position:relative;
-left: 16%;
+  .splide-slide-2 {
+    position: relative;
+    left: 16%;
   }
 
-  .splide-slide-3{
-position:relative;
-left: 11%;
+  .splide-slide-3 {
+    position: relative;
+    left: 11%;
   }
 }
 
 @media (min-width: 1200px) {
-  .splide-slide-1{
-    position:relative;
+  .splide-slide-1 {
+    position: relative;
     left: 14%;
-      }
+  }
 
-      .splide-slide-2{
-    position:relative;
+  .splide-slide-2 {
+    position: relative;
     left: 28%;
-      }
+  }
 
-      .splide-slide-3{
-    position:relative;
+  .splide-slide-3 {
+    position: relative;
     left: 16%;
-      }
+  }
 }
 
-
 @media (min-width: 1440px) {
-  .splide-slide-1{
-    position:relative;
-    left:20%;
-      }
+  .splide-slide-1 {
+    position: relative;
+    left: 20%;
+  }
 
-      .splide-slide-2{
-    position:relative;
+  .splide-slide-2 {
+    position: relative;
     left: 40%;
-      }
+  }
 
-      .splide-slide-3{
-    position:relative;
+  .splide-slide-3 {
+    position: relative;
     left: 22%;
-      }
+  }
 }
