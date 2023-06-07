@@ -5,7 +5,7 @@ name: 🚀 Deploy website Strtup on push on PROD
 
 on:
   push:
-    branches: [ "PROD" ]
+    branches: [ PROD ]
 
 jobs:
   web-deploy:
