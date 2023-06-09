@@ -240,3 +240,64 @@
     line-height: 22px;
   }
 }
+
+
+@media (min-width: 1336px) {
+  .footer-container-forms-maps {
+    gap: 3em;
+  }
+
+  .footer-container-maps--iframe {
+    width: 340px;
+    height: 370px;
+  }
+
+  .footer-container-date {
+    width: 980px;
+    height: 130px;
+  }
+
+  .footer-title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .footer-container-date-email{
+    width: 245px;
+  }
+
+  .footer-container-date-email--email-p{
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer-container-date-number--number--p {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer-container-form--input {
+    width: 435px;
+    height: 60px;
+  }
+
+  .footer-container-form--textarea {
+    width: 435px;
+    height: 159px;
+  }
+
+  .footer-container-form--button {
+    width: 150px;
+    height: 60px;
+  }
+
+  .footer-container-form--input::placeholder {
+    font-size: 20px;
+    height: 30px;
+
+  }
+
+  .footer-container-form--textarea::placeholder {
+    font-size: 20px;
+  }
+}

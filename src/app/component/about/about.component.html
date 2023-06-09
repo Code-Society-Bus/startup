@@ -1,13 +1,14 @@
-<div class="about container">
-  <div class="about-container row gap-5">
+<div class="about">
+  <div class="about-container gap-5">
     <div class="about-container-title flex flex-col justify-center">
       <h2 class="about-title flex flex-col justify-center">Sobre Nosotros</h2>
       <hr class="about-hr flex justify-center" />
     </div>
-    <div id="splide1" class="container-splide splide">
-      <div class="splide__track container-splide-track">
-        <ul class="splide__list container-splide-list">
-          <li class="splide__slide container-splide-slide">
+    <div id="splide1" class="about-container-splide splide">
+      <div class="splide__track about-container-splide-track">
+        <ul class="splide__list about-container-splide-list">
+          <!-- style="transform: none !important" [style.transform]="'translateX(' + translateValue + 'px) !important'" -->
+          <li class="splide__slide about-container-splide-slide splide__slide-about-1" (click)="cambiarTransformacion('1')">
             <div class="about-card">
               <img
                 src="../../../assets/nosotros-carrusel-1.png"
@@ -31,7 +32,7 @@
               </div>
             </div>
           </li>
-          <li class="splide__slide">
+          <li class="splide__slide splide__slide-about-2" (click)="cambiarTransformacion('2')">
             <div class="about-card">
               <img
                 src="../../../assets/nosotros-carrusel-2.png"
@@ -53,7 +54,7 @@
               </div>
             </div>
           </li>
-          <li class="splide__slide">
+          <li class="splide__slide splide__slide-about-3" (click)="cambiarTransformacion('3')">
             <div class="about-card">
               <img
                 src="../../../assets/nosotros-carrusel-3.png"

@@ -159,6 +159,8 @@
     height: 14px;
   }
 
+
+
   .header-sidenav {
     display: none;
   }
@@ -200,11 +202,9 @@
   }
 
   .header-sidenav-link2:hover {
-    width: auto;
-    height: 115px;
-    background: #17223a;
-    color: #fff;
-    padding: 5px;
+    text-decoration: underline !important;
+    text-decoration-color: #1b3761;
+    text-decoration-style: dashed;
   }
 }
 

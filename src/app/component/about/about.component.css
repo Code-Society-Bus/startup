@@ -79,4 +79,31 @@
 }
 
 @media (min-width: 1024px) {
+
+
+  .about-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+
+  .about-hr {
+    margin-bottom: 5em;
+  }
+
+/*   .splide__slide-about-1{
+left: 140%;
+ width: 70% !important;
+  }
+
+  .splide__slide-about-2{
+     left: -3%;
+    width: 70% !important;
+  }
+
+  .splide__slide-about-3{
+    left: 67%;
+    width: 70% !important;
+} */
 }
