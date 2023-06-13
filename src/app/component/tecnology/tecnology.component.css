@@ -60,7 +60,7 @@
 }
 
 .tecnology-container-paragraph--paragraph {
-  width: 262px;
+  /* width: 262px; */
   height: 328px;
   font-family: var(--tipografiaAlegreya);
   font-style: normal;
